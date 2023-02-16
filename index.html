@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link 
+        rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+        crossorigin="anonymous"
+        >
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+          <nav class="navbar">
+            <div class="brand">
+            </div>
+            <ul class="menu">
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#about">Sobre mí</a></li>
+              <li><a href="#premios">Premios</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        
+    <main class="main">
+        <div class="info-content" id="main-text">
+          <h1>Soy <span>Federico Faccipieri</span></h1>
+            <p>Y soy fotógrafo de paisajes y programador<p>
+          <a download href="#">
+            <button class="download-cv">Descargar CV</button>
+          </a>
+        </div>
+      </main>
+    </div>
+
+    <div class="about">
+      <div id="about"></div>
+        <img src="./img/FC.jpg" alt="Federico Faccipieri Retrato">
+        <div class="about-info">
+          <h2>Sobre mí</h2>
+          <div class="divider"></div>
+          <p>Nací en 1995 en la ciudad de Santa Rosa, provincia de La Pampa (Argentina). En el año 2013 me fui a vivir y estudiar a la Ciudad de La Plata.<br>
+             En el año 2020 regresé a mi ciudad natal, donde actualmente continuo viviendo.
+          <p>Estoy graduado de las carreras Licenciatura en Geología y Licenciatura en Geoquímica, <b>pero me dedico a la fotografía de paisajes y a la programación freelance</b>.
+          </p>
+          <button class="download-cv">Read more</button>
+        </div>
+      </div>
+
+    <section class="team contenedor" id="equipo">  <!-- SERÍA PREMIOS EN VEZ DE EQUIPO-->
+      <div id="premios"></div>
+        <h3>Premiaciones</h3>
+        <h4 class="after"> Mis fotos ganadores de premios</h4>
+        <div class="card">
+            <div class="content-card">
+                <div class="people">
+                    <img src="./img/caballo.jpg" alt="">
+                </div>
+                <div class="texto-team">
+                    <h4> National Geographic</h4>
+                    <h5>Landscape & Nature Photography</h5>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="people">
+                    <img src="./img/CE.jpg" alt="">
+                </div>
+                <div class="texto-team">
+                    <h4>CE Balance</h4>
+                    <h5>Sport photography</h5>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="people">
+                    <img src="./img/nature.jpg" alt="">
+                </div>
+                <div class="texto-team">
+                    <h4>Revista Nature</h4>
+                    <h5>Wild photography</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team contenedor" id="equipo">  <!-- SERÍA PROYECTOS EN VEZ DE EQUIPO-->
+      <div id="proyectos"></div>
+        <h3>Proyectos</h3>
+        <h4 class="after">Mis más recientes trabajos</h4>
+        <div class="card">
+            <div class="content-card">
+                <div class="people">
+                    <img src="./img/nike.jpg" alt="">
+                </div>
+                <div class="texto-team">
+                    <h4>Nike</h4>
+                    <h5><a href="#" target="_blank">Ver Proyecto</a></h5>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="people">
+                    <img src="./img//sunset2.jpg" alt="">
+                </div>
+                <div class="texto-team">
+                    <h4>Sunset Magazine</h4>
+                    <h5><a href="#" target="_blank">Ver Proyecto</a></h5>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="people">
+                    <img src="./img/hyperx.jpg" alt="">
+                </div>
+                <div class="texto-team">
+                    <h4>HyperX</h4>
+                    <h5><a href="#" target="_blank">Ver Proyecto</a></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="contact-section">
+            <div class="contact-headings">
+              <div id="contacto"></div>
+              <h2>Mantente en contacto</h2>
+              <div class="divider"></div>
+            </div>
+        
+    <div class="container-contact">
+           <div class="contact-form">
+                <h4>Enviame un mensaje</h4>
+                <form class="form">
+                  <input type="text" placeholder="Name">
+                  <input type="email" placeholder="Email">
+                  <textarea placeholder="Place your message here">
+                  </textarea>
+                  <button  class="btn-submit">
+                    Enviar mensjae
+                  </button>
+                </form>
+              </div> 
+            </div>
+          </div>
+        
+          <footer class="footer">
+            <div class="footer-content">
+              <h2> Federico Faccipieri</h2>
+              <h5>Fotógrafo & Full Stack Developer</h5>
+            </div>
+            <div class="sotial-network">
+                <a href="https://instagram.com/federicofaccipieri" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/federicofaccipieri" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/" target="_blank"> <i class="fab fa-github"></i></a>
+            </div>
+          </footer>
+     
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
